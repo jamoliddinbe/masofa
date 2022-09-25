@@ -1,0 +1,32 @@
+.container{
+    width: 1300px;
+    text-align: center;
+}
+
+ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+li{
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+@media  screen and (max-width:768px) {
+    .container{
+        width: 100%;  
+    }
+    ul{
+        flex-wrap: wrap;    
+    }
+}
